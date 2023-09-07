@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F5C003252AA0ED8E00DB295E /* FirstSwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C003242AA0ED8E00DB295E /* FirstSwiftUIAppApp.swift */; };
-		F5C003272AA0ED8E00DB295E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C003262AA0ED8E00DB295E /* ContentView.swift */; };
+		F59E96162AAA04110034F2DB /* FirstSwiftUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E96152AAA04110034F2DB /* FirstSwiftUiApp.swift */; };
+		F59E96182AAA04450034F2DB /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E96172AAA04450034F2DB /* DetailsView.swift */; };
+		F59E961A2AAA04730034F2DB /* NightWatchTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E96192AAA04720034F2DB /* NightWatchTasks.swift */; };
+		F59E961C2AAA04A40034F2DB /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E961B2AAA04A40034F2DB /* Task.swift */; };
 		F5C003292AA0ED9000DB295E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C003282AA0ED9000DB295E /* Assets.xcassets */; };
 		F5C0032C2AA0ED9000DB295E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C0032B2AA0ED9000DB295E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F59E96152AAA04110034F2DB /* FirstSwiftUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSwiftUiApp.swift; sourceTree = "<group>"; };
+		F59E96172AAA04450034F2DB /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		F59E96192AAA04720034F2DB /* NightWatchTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightWatchTasks.swift; sourceTree = "<group>"; };
+		F59E961B2AAA04A40034F2DB /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		F5C003212AA0ED8E00DB295E /* FirstSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5C003242AA0ED8E00DB295E /* FirstSwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSwiftUIAppApp.swift; sourceTree = "<group>"; };
 		F5C003262AA0ED8E00DB295E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F5C003282AA0ED9000DB295E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5C0032B2AA0ED9000DB295E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,10 +56,13 @@
 		F5C003232AA0ED8E00DB295E /* FirstSwiftUIApp */ = {
 			isa = PBXGroup;
 			children = (
-				F5C003242AA0ED8E00DB295E /* FirstSwiftUIAppApp.swift */,
 				F5C003262AA0ED8E00DB295E /* ContentView.swift */,
 				F5C003282AA0ED9000DB295E /* Assets.xcassets */,
 				F5C0032A2AA0ED9000DB295E /* Preview Content */,
+				F59E96152AAA04110034F2DB /* FirstSwiftUiApp.swift */,
+				F59E96172AAA04450034F2DB /* DetailsView.swift */,
+				F59E96192AAA04720034F2DB /* NightWatchTasks.swift */,
+				F59E961B2AAA04A40034F2DB /* Task.swift */,
 			);
 			path = FirstSwiftUIApp;
 			sourceTree = "<group>";
@@ -137,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5C003272AA0ED8E00DB295E /* ContentView.swift in Sources */,
-				F5C003252AA0ED8E00DB295E /* FirstSwiftUIAppApp.swift in Sources */,
+				F59E96162AAA04110034F2DB /* FirstSwiftUiApp.swift in Sources */,
+				F59E961C2AAA04A40034F2DB /* Task.swift in Sources */,
+				F59E96182AAA04450034F2DB /* DetailsView.swift in Sources */,
+				F59E961A2AAA04730034F2DB /* NightWatchTasks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
